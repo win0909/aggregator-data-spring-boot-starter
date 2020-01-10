@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-data-aggregator-example" />
+        <module name="spring-boot-data-aggregator-core" />
+        <module name="spring-boot-data-aggregator-autoconfigure" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-data-aggregator-starter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-data-aggregator-autoconfigure" options="" />
+      <module name="spring-boot-data-aggregator-core" options="" />
+      <module name="spring-boot-data-aggregator-example" options="-parameters" />
+      <module name="spring-boot-data-aggregator-starter" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "example",
+      "type": "io.github.lvyahui8.spring.example.configuration.ExampleProperties",
+      "sourceType": "io.github.lvyahui8.spring.example.configuration.ExampleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "example.logging",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.github.lvyahui8.spring.example.configuration.ExampleProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

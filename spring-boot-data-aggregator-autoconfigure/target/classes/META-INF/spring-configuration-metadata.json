@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "name": "io.github.lvyahui8.spring",
+      "type": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "io.github.lvyahui8.spring.base-packages",
+      "type": "java.lang.String[]",
+      "description": "Packages that need to scan for aggregated annotations",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties"
+    },
+    {
+      "name": "io.github.lvyahui8.spring.default-timeout",
+      "type": "java.lang.Long",
+      "description": "Set a default timeout for the method of providing data",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "io.github.lvyahui8.spring.enable-logging",
+      "type": "java.lang.Boolean",
+      "description": "Allow output log",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "io.github.lvyahui8.spring.ignore-exception",
+      "type": "java.lang.Boolean",
+      "description": "Ignore exception thrown by asynchronous execution, method returns null value",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "io.github.lvyahui8.spring.queue-size",
+      "type": "java.lang.Integer",
+      "description": "The size of the queue that holds the task to be executed",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "io.github.lvyahui8.spring.task-wrapper-class",
+      "type": "java.lang.Class<? extends io.github.lvyahui8.spring.aggregate.service.AsyncQueryTaskWrapper>",
+      "description": "Async task implement",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties"
+    },
+    {
+      "name": "io.github.lvyahui8.spring.thread-number",
+      "type": "java.lang.Integer",
+      "description": "Thread size of the asynchronous thread pool",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "io.github.lvyahui8.spring.thread-prefix",
+      "type": "java.lang.String",
+      "description": "Thread name prefix for asynchronous threads",
+      "sourceType": "io.github.lvyahui8.spring.autoconfigure.BeanAggregateProperties",
+      "defaultValue": "aggregateTask-"
+    }
+  ],
+  "hints": []
+}
